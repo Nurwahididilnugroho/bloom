@@ -1,0 +1,153 @@
+.container_1{
+    background: black;
+    color: white;
+    display: flex;
+    gap: 1;
+    row-gap: 30px;
+    column-gap: 55%;
+    padding: 20px 5%;
+}
+
+.head{
+    margin-top: 25px;
+}
+
+.texthead{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+.texthead:hover{
+    color: skyblue;
+}
+
+.container_2{
+    background: rgba(0, 0, 0, 0.199);
+    display: flex;
+    gap: 1;
+    row-gap: 40px;
+    column-gap: 40px;
+    padding: 20px 5%;
+}
+
+.isinya{
+    /* border: 2px solid skyblue; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+}
+.isinya1{
+    /* border: 2px solid skyblue; */
+    transition: all 2s;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    height: 100%;
+    width: 100%;
+}
+.isinya1:hover{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.5);
+} 
+
+.button{
+    background: rgb(218, 208, 184);
+    width: 150px;
+    height: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    transition: 1;
+}
+.button:hover{
+    transition: 1;
+    color: rgb(20, 84, 128);
+    background: whitesmoke;
+}
+.nav{
+    background: whitesmoke;
+    padding: 20px 5%;
+}
+.container_3{
+    background: whitesmoke;
+    display: flex;
+    gap: 1;
+    column-gap: 10%;
+    row-gap: 10%;
+    justify-self: auto;
+}
+.container_4{
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    gap: 1;
+    column-gap: 10%;
+    row-gap: 10%;
+    padding: 50px 5%;
+}
+
+.late{
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    gap: 0.25px;
+    column-gap: 20%;
+}
+.scl{
+    transition: all 1.3s;
+    width: 100%;
+    /* transform: translatex(42px); */
+}
+.scl:hover{
+    transform: scale(1.5);
+    /* margin: 10px; */
+    /* transform:  scale3d(1.5, 1.5, 0.2) translateZ(100px); */
+    /* background-color: pink; */
+}
+
+.tst{
+    padding-right: 10px;
+}
+
+.letak{
+    display: block;
+    margin-bottom: 17%;
+}
+.letak1{
+    background: white;
+    color: black;
+    height: 20%;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 2px;
+}
+.letak1:hover{
+    background: rgb(65, 73, 141);
+    color: rgb(255, 255, 255);
+    height: 20%;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+.button1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.button1:hover{
+    transition: 1;
+    color: rgb(20, 84, 128);
+    background: whitesmoke;
+}
+
+.hidden{
+    overflow: hidden;
+}
